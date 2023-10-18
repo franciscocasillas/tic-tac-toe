@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+/* GAME  */
+
+main {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.game {
+	display: flex;
+}
+
+.square {
+	height: 90px;
+	width: 90px;
+}
+
+/* BORDERS */
+
+#x1y1,
+#x1y2,
+#x1y3,
+#x2y1,
+#x2y2,
+#x2y3 {
+	border-right: solid black 3px;
+}
+
+#x1y1,
+#x2y1,
+#x3y1,
+#x1y2,
+#x2y2,
+#x3y2 {
+	border-bottom: solid black 3px;
+}
